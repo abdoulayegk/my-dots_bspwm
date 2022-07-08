@@ -26,7 +26,7 @@ This setup is based on one of my old rice, but with rounded corner thanks to the
 - [x] rofi-theme
 - [x] fish
 - [x] music player
-- [x] notification
+- [ ] notification
 - [x] logout interface (rofi)
 - [ ] lightdm theme
 
