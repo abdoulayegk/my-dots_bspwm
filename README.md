@@ -18,6 +18,25 @@ This setup is based on one of my old rice, but with rounded corner thanks to the
 **Menu:** rofi  
 **Bar:** Polybar  
 **Music player:** ncmpcpp + mpd
+
+### Packages
+You'll need these following packages preferably with yay aur helper:
+* bspwm
+* bspwm-rounded-corners
+* ncmpcpp
+* mpd
+* kitty
+* rofi  
+* picom-git (the ibhagwan version is used here)
+* polybar
+* brightnessctl
+
+**AUR**
+
+```bash
+yay -S bspwm bspwm-rounded-corners ncmpcpp mpd kitty rofi picom-ibhagwan-git polybar brightnessctl
+```
+
 ## Flaws
 - Of course, there are a lot of changes that need to be made and, as such, it might take way longer to configure the dotfiles.
 
