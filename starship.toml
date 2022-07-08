@@ -1,0 +1,72 @@
+# disable the newline at the start of the prompt
+add_newline = false
+
+# $time\ was originally at the beginning, but dropping it for extra space
+# add/remove $line_break\ before $character\ to get prompt character on same line as prompt
+format = """\
+  $directory\
+  $git_branch\
+  $git_status\
+  $nodejs\
+  $golang\
+  $python\
+  $ruby\
+  $rust\
+  $line_break\
+  $character\
+"""
+
+# replace the prompt character
+[character]
+success_symbol = "[](bold purple)"
+error_symbol = "[](bold red)"
+vicmd_symbol = "[](bold purple)"
+
+# only show current directory name
+# remove directory, and make it blue
+[directory]
+truncation_length = 1
+style = "bright-blue"
+format = "[$path ]($style)[$read_only]($read_only_style)"
+
+# do not put prompt character on new line
+# might revisit this in the future...
+[line_break]
+# disabled = true
+
+# show the time in the prompt
+[time]
+disabled = false
+style = "bright-black"
+time_format = "[%T] "
+format = "[$time]($style)"
+
+[git_branch]
+style = "purple"
+symbol = " "
+
+[git_status]
+style = "yellow"
+deleted = "×"
+
+# remove bold styling from language prompts
+[golang]
+style = "cyan"
+symbol = " "
+
+[nodejs]
+style = "bright-green"
+symbol = " "
+
+[python]
+style = "yellow"
+symbol = " "
+
+[ruby]
+style = "red"
+symbol = " "
+
+[rust]
+style = "red"
+symbol = " "
+
