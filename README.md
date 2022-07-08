@@ -19,7 +19,7 @@ This setup is based on one of my old rice, but with rounded corner thanks to the
 **Bar:** Polybar  
 **Music player:** ncmpcpp + mpd
 ## Flaws
-- Of course there are a lot changes that needs to be made and as such might take way longer to configure the dotfiles.
+- Of course, there are a lot of changes that need to be made and, as such, it might take way longer to configure the dotfiles.
 
 ## To-do
 - [x] polybars
@@ -33,4 +33,4 @@ This setup is based on one of my old rice, but with rounded corner thanks to the
 ## Noted
 - I will not create an install script of any kind so don't even ask for it.
 
-- The preview pic is not representative of the current dots as i have made alot of changes but it should look a lot like it.
+- The preview pic is not representative of the current dots as I have made a lot of changes, but it should look a lot like it.
