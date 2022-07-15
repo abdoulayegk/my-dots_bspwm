@@ -3,10 +3,10 @@ took less time to create than i thought
 ![image](https://github.com/Vesial/my-dots/blob/main/second.jpg)
 
 ## Introduction
-This project is aim to revamps my whole Linux dotfiles, I have been using my current dotfiles for around a month or so, and with my machine getting to the point of reinstallation, It's time for me to rerice my beloved machine again.
+This project aims to overhaul my entire Linux dotfiles. I've been using my current dotfiles for about a month, and now that my system is close to needing a reinstallation, it's time to reinstall my beloved machine once more.
 
-This also serves as a practice time for me when it comes to Bash and Linux management.
-This setup is based on one of my old rice, but with rounded corner thanks to the advancement of science 
+
+In terms of managing Linux and Bash, I can also use this as practice time.
 
 ## Basic information
 **OS:** Arch Linux  
@@ -17,14 +17,11 @@ This setup is based on one of my old rice, but with rounded corner thanks to the
 **Editor:** Neovim  
 **Menu:** rofi  
 **Bar:** Polybar  
-**Music player:** ncmpcpp + mpd
 
 ### Packages
-You'll need these following packages preferably with yay aur helper:
+You'll need these following packages, preferably with yay aur helper:
 * bspwm
 * bspwm-rounded-corners
-* ncmpcpp
-* mpd
 * kitty
 * rofi  
 * picom-git (the ibhagwan version is used here)
@@ -34,7 +31,7 @@ You'll need these following packages preferably with yay aur helper:
 **AUR**
 
 ```bash
-yay -S bspwm bspwm-rounded-corners ncmpcpp mpd kitty rofi picom-ibhagwan-git polybar brightnessctl
+yay -S bspwm bspwm-rounded-corners kitty rofi picom-ibhagwan-git polybar brightnessctl
 ```
 
 ## Flaws
@@ -43,8 +40,7 @@ yay -S bspwm bspwm-rounded-corners ncmpcpp mpd kitty rofi picom-ibhagwan-git pol
 ## To-do
 - [x] polybars
 - [x] rofi-theme
-- [x] fish
-- [x] music player
+- [x] fish       
 - [ ] notification
 - [x] logout interface (rofi)
 - [ ] lightdm theme
