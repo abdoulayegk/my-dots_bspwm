@@ -6,8 +6,6 @@ took less time to create than i thought
 This project aims to overhaul my entire Linux dotfiles. I've been using my current dotfiles for about a month, and now that my system is close to needing a reinstallation, it's time to reinstall my beloved machine once more.
 
 
-In terms of managing Linux and Bash, I can also use this as practice time.
-
 ## Basic information
 **OS:** Arch Linux  
 **WM:** bspwm    
